@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      li{
+        margin-left: 30px;
+        color:grey;
+      }
+    </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -12,11 +18,9 @@
     <script src="js/script.js"></script>
 
 
-
-
     <title>Impact Project</title>
 </head>
-<body style="overflow-x: hidden;" onload="l()">
+<body style="overflow-x: hidden;" onload="">
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -25,13 +29,13 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active" style="width: 100%; height: 50vw; overflow-y:hidden;">
+          <div class="carousel-item active" style="width: 100%; height: 40vw; overflow-y:hidden;">
             <img src="https://imageio.forbes.com/specials-images/imageserve/64aa095b9866235e854c321c/Hand-holding-AI-symbol-showing-how-AI-will-change-work-/960x0.jpg?format=jpg&width=960" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item" style="width: 100%; height: 50vw; overflow-y:hidden;">
+          <div class="carousel-item" style="width: 100%; height: 40vw; overflow-y:hidden;">
             <img src="https://www.rlogical.com/wp-content/uploads/2020/12/MERN.webp" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item" style="width: 100%; height: 50vw; overflow-y:hidden;">
+          <div class="carousel-item" style="width: 100%; height: 40vw; overflow-y:hidden;">
             <img src="https://inzint.com/wp-content/uploads/2023/02/Features-of-Mern-stack-development-services-You-Should-Know-1.png" class="d-block w-100" alt="...">
           </div>
         </div>
@@ -46,8 +50,8 @@
       </div>
     </header>
     <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">LVC</a>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightgrey;">
+            <a class="navbar-brand" href="index.html" style="font-size: 6vw;text-decoration: solid;">LVC</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -70,6 +74,26 @@
                       <!-- <a class="dropdown-item" href="#" style="display: hidden;">Something else here</a> -->
                     </div>
                   </li>
+                <!-- <div style="display: flex; justify-content: center; width: 100%;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallary.html">Photo Gallary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mis.html">MIS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="progress.html">Progress</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="exam.html">Online Exam</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                </div> -->
                 <li class="nav-item">
                     <a class="nav-link" href="registration.html">Registration</a>
                 </li>
@@ -93,10 +117,10 @@
                   <a class="nav-link disabled">Disabled</a>
                 </li> -->
               </ul>
-              <!-- <form class="form-inline my-2 my-lg-0">
+              <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form> -->
+              </form>
             </div>
           </nav>
     </section>
@@ -108,10 +132,10 @@
     </section>
     <section style="display: flex; height: fit-content; align-items: center; max-height: fit-content;">
       <div>
-        <div style="margin-left: 20px; display: flex; align-items: center; flex-wrap: wrap;">
-            <h2>Most Important Course for the Professional</h2>
+        <div style="margin-left: 20px; display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
+            <h2 style="text-align: center;">Most Important Course for the Professional</h2>
         </div>
-        <div style="margin-left: 20px;gap: 10px; display: flex; width:100vw; flex-wrap: wrap;">
+        <div style="margin-left: 20px;gap: 10px; display: flex; width:100vw; flex-wrap: wrap; justify-content: center;">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="https://inzint.com/wp-content/uploads/2023/02/Features-of-Mern-stack-development-services-You-Should-Know-1.png" alt="Card image cap">
                 <div class="card-body">
@@ -139,7 +163,7 @@
         </div>
     </div>
     </section>
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<footer class="text-center text-lg-start bg-body-tertiary text-muted" style="background-color: lightgrey; margin-top: 20px;">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->

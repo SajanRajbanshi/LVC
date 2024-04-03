@@ -15,6 +15,10 @@
             border-radius: 10px;
             border-width: 1px;
         }
+        li{
+        margin-left: 30px;
+        color:grey;
+      }
     </style>
     <script src="js/script.js"></script>
 
@@ -24,91 +28,135 @@
     <title>Impact Project</title>
 </head>
 <body onclick="fun()" style="overflow-x: hidden;">
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="width: 100%; height: 50vw; overflow-y:hidden;">
-            <img src="https://imageio.forbes.com/specials-images/imageserve/64aa095b9866235e854c321c/Hand-holding-AI-symbol-showing-how-AI-will-change-work-/960x0.jpg?format=jpg&width=960" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" style="width: 100%; height: 50vw; overflow-y:hidden;">
-            <img src="https://www.rlogical.com/wp-content/uploads/2020/12/MERN.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" style="width: 100%; height: 50vw; overflow-y:hidden;">
-            <img src="https://inzint.com/wp-content/uploads/2023/02/Features-of-Mern-stack-development-services-You-Should-Know-1.png" class="d-block w-100" alt="...">
-          </div>
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="width: 100%; height: 40vw; overflow-y:hidden;">
+          <img src="https://imageio.forbes.com/specials-images/imageserve/64aa095b9866235e854c321c/Hand-holding-AI-symbol-showing-how-AI-will-change-work-/960x0.jpg?format=jpg&width=960" class="d-block w-100" alt="...">
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </button>
+        <div class="carousel-item" style="width: 100%; height: 40vw; overflow-y:hidden;">
+          <img src="https://www.rlogical.com/wp-content/uploads/2020/12/MERN.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" style="width: 100%; height: 40vw; overflow-y:hidden;">
+          <img src="https://inzint.com/wp-content/uploads/2023/02/Features-of-Mern-stack-development-services-You-Should-Know-1.png" class="d-block w-100" alt="...">
+        </div>
       </div>
-    </header>
-    <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">LVC</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                      All Course
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">MEAN Stack</a>
-                      <a class="dropdown-item" href="#">JAVA</a>
-                      <a class="dropdown-item" href="#">RPA</a>
-                      <a class="dropdown-item" href="#">DEVOPS</a>
-                      <!-- <div class="dropdown-divider"></div> -->
-                      <!-- <a class="dropdown-item" href="#" style="display: hidden;">Something else here</a> -->
-                    </div>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Registration</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallary.html">Photo Gallary</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="mis.html">MIS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="progress.html">Progress</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="exam.html">Online Exam</a>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </header>
+  <section>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightgrey;">
+          <a class="navbar-brand" href="index.html" style="font-size: 6vw;text-decoration: solid;">LVC</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    All Course
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">MEAN Stack</a>
+                    <a class="dropdown-item" href="#">JAVA</a>
+                    <a class="dropdown-item" href="#">RPA</a>
+                    <a class="dropdown-item" href="#">DEVOPS</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <!-- <a class="dropdown-item" href="#" style="display: hidden;">Something else here</a> -->
+                  </div>
                 </li>
-                
-                <!-- <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li> -->
-              </ul>
-              <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form> -->
-            </div>
-          </nav>
-    </section>
-    <section style="width: 100%;height: 50vh; display: flex; justify-content: center; align-items: center;">
-        <div style="border-radius: 10px; border-width: 1px; border-style: solid; min-width:300px; max-width: 70vw; padding-top: 20px; padding-bottom: 20px; background-color: rgb(229, 229, 229);">
+              <!-- <div style="display: flex; justify-content: center; width: 100%;">
+                <li class="nav-item">
+                  <a class="nav-link" href="registration.html">Registration</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="gallary.html">Photo Gallary</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="mis.html">MIS</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="progress.html">Progress</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="exam.html">Online Exam</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+              </div> -->
+              <li class="nav-item">
+                  <a class="nav-link" href="registration.html">Registration</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="gallary.html">Photo Gallary</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="mis.html">MIS</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="progress.html">Progress</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="exam.html">Online Exam</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+  </section>
+    <section style="width: 100vw;height:fit-content; display: flex; justify-content: space-around; align-items: center;">
+      <div style="border-radius: 10px; border-width: 1px; border-style: solid; min-width:45vw; max-width: 40vw; padding: 20px;height: 50vh;margin-top: 20px;margin-bottom: 20px;">
+        <h3 style="text-align: center;">Why Start today?</h3>
+        <p style="text-align: center;">
+          In the realm of digital expanse, where learning takes flight,
+Online study beckons with its promise, shining bright.
+Flexibility reigns supreme, time bends to our will,
+Courses tailored to passions, dreams they fulfill.
+
+Engagement blooms in virtual halls, minds come alive,
+Interacting with peers, together we strive.
+Multimedia whispers secrets, knowledge unfurls,
+Innovative tech dances, enlightening the world.
+
+No bounds to geography, no shackles to bind,
+Learning transcends borders, barriers left behind.
+Costs shrink, burdens lightened, as we embark,
+On a journey of discovery, through the digital spark.
+
+So heed the call, embrace the online domain,
+Where wisdom awaits, a digital terrain.
+Study online, and watch your horizons expand,
+As knowledge and opportunity walk hand in hand.
+        </p>
+      </div>
+        <div style="border-radius: 10px; border-width: 1px; border-style: solid; min-width:45vw; max-width: 40vw; padding: 20px; background-color: rgb(229, 229, 229);height: 50vh; margin-top: 20px;margin-bottom: 20px;">
           <h3 style="text-align: center;">Registration</h3>
           <hr>
             <form style="text-align: center;" onsubmit="return validate()" action="idontknow">
@@ -124,12 +172,12 @@
             </form>
         </div>
     </section>
-    <section style="display: flex; height: fit-content; align-items: center; max-height: fit-content; flex-wrap: wrap;">
+    <section style="display: flex; height: fit-content; align-items: center; max-height: fit-content;">
       <div>
-        <div style="margin-left: 20px; display: flex; align-items: center; flex-wrap: wrap;">
-            <h2>Most Important Course for the Professional</h2>
+        <div style="margin-left: 20px; display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
+            <h2 style="text-align: center;">Most Important Course for the Professional</h2>
         </div>
-        <div style="margin-left: 20px;gap: 10px; display: flex; width:100vw; flex-wrap: wrap;">
+        <div style="margin-left: 20px;gap: 10px; display: flex; width:100vw; flex-wrap: wrap; justify-content: center;">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="https://inzint.com/wp-content/uploads/2023/02/Features-of-Mern-stack-development-services-You-Should-Know-1.png" alt="Card image cap">
                 <div class="card-body">
@@ -147,7 +195,7 @@
             </div>
             </div>
             <div class="card" style="width: 18rem;">
-            <img style="height: 150px;" class="card-img-top" src="https://imageio.forbes.com/specials-images/imageserve/64aa095b9866235e854c321c/Hand-holding-AI-symbol-showing-how-AI-will-change-work-/960x0.jpg?format=jpg&width=960" alt="Card image cap">
+            <img style="height: 150px;"  class="card-img-top" src="https://imageio.forbes.com/specials-images/imageserve/64aa095b9866235e854c321c/Hand-holding-AI-symbol-showing-how-AI-will-change-work-/960x0.jpg?format=jpg&width=960" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">AI</h5>
                 <p class="card-text">AI, or artificial intelligence, encompasses computer systems capable of performing tasks that typically require human intelligence, such as learning and problem-solving.</p>
@@ -157,7 +205,7 @@
         </div>
     </div>
     </section>
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<footer class="text-center text-lg-start bg-body-tertiary text-muted" style="background-color: lightgrey; margin-top: 20px;">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
@@ -272,8 +320,8 @@
   
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      Developed by: 
+      <a class="text-reset fw-bold" href="#">Sajan Kumar Rajbanshi</a>
     </div>
     <!-- Copyright -->
   </footer>

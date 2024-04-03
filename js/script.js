@@ -62,9 +62,8 @@ function calculateMark()
     alert("you gained "+mark+" out of 4")
 }
 
-
 function l()
 {
-    window.open("popup.html","", "width=100,height=100")
+    window.open("popup.html","", "width=400,height=400")
 
 }
